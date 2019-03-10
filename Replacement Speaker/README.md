@@ -3,3 +3,8 @@ This section was implmented as during my investigations one of my speakers was d
 The bracket detailed in here is to accept a Visatron FRS8 speaker 8Ohm 30watt. The B&O speaker is 3.25" which is very odd and forms part of the plastics. This speaker is 3".
 
 The original Solidworks file is here should you want to utilise an alternative speaker
+
+![Alt text](/images/IMG_20190310_1101460.jpg?raw=true "Optional Title")
+
+
+      
