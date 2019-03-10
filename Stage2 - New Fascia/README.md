@@ -4,11 +4,11 @@ The fascia holds the Raspberry pi, the screen, the KM Tech cross overs.
 
 ### 3d Renders
 
-![Alt text](./images/View1.jpg?raw=true "Render1")
+![Alt text](./images/View1.JPG?raw=true "Render1")
 
-![Alt text](./images/View1.jpg?raw=true "Render2")
+![Alt text](./images/View1.JPG?raw=true "Render2")
 
-![Alt text](./images/View1.jpg?raw=true "Render3")
+![Alt text](./images/View1.JPG?raw=true "Render3")
 
 ### IR Receiver
 
