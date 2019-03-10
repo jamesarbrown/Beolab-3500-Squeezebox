@@ -4,7 +4,5 @@ The bracket detailed in here is to accept a Visatron FRS8 speaker 8Ohm 30watt. T
 
 The original Solidworks file is here should you want to utilise an alternative speaker
 
-![Alt text](/images/IMG_20190310_1101460.jpg?raw=true "Optional Title")
+![Alt text](./images/IMG_20190310_1101460.jpg?raw=true "Optional Title")
 
-
-      
