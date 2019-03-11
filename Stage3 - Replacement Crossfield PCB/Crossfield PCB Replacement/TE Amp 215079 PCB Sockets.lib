@@ -1,0 +1,183 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 10_Way_8-215079-0
+#
+DEF 10_Way_8-215079-0 J 0 40 Y Y 1 L N
+F0 "J" -200 320 50 H V L BNN
+F1 "10_Way_8-215079-0" -200 -401 50 H V L BNN
+F2 "TE_8-215079-0" 0 0 50 H I L BNN
+F3 "8-215079-0" 0 0 50 H I L BNN
+F4 "Socket; Micro-MaTch; female; PIN: 10; THT; on PCBs; 1.5A; straight" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "https://www.te.com/usa-en/product-8-215079-0.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F7 "https://www.digikey.co.uk/product-detail/en/te-connectivity-amp-connectors/8-215079-0/A99470CT-ND/1955772?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F8 "8-215079-0" 0 0 50 H I L BNN
+F9 "A99470CT-ND" 0 0 50 H I L BNN
+F10 "TE Connectivity" 0 0 50 H I L BNN
+F11 "Compliant" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -200 -300 200 -300 N
+P 2 0 0 10 -200 300 -200 -300 N
+P 2 0 0 10 200 -300 200 300 N
+P 2 0 0 10 200 300 -200 300 N
+X 1 1 -300 200 100 R 40 40 0 0 P
+X 10 10 300 -200 100 L 40 40 0 0 P
+X 2 2 300 200 100 L 40 40 0 0 P
+X 3 3 -300 100 100 R 40 40 0 0 P
+X 4 4 300 100 100 L 40 40 0 0 P
+X 5 5 -300 0 100 R 40 40 0 0 P
+X 6 6 300 0 100 L 40 40 0 0 P
+X 7 7 -300 -100 100 R 40 40 0 0 P
+X 8 8 300 -100 100 L 40 40 0 0 P
+X 9 9 -300 -200 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 12_Way_8-215079-2
+#
+DEF 12_Way_8-215079-2 J 0 40 Y Y 1 L N
+F0 "J" -300 641 50 H V L BNN
+F1 "12_Way_8-215079-2" -301 -701 50 H V L BNN
+F2 "TE_8-215079-2" 0 0 50 H I L BNN
+F3 "8-215079-2" 0 0 50 H I L BNN
+F4 "Straight female header [TE Connectivity] 8-215079-2 Straight female header" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "https://www.te.com/usa-en/product-8-215079-2.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F7 "https://www.digikey.co.uk/product-detail/en/te-connectivity-amp-connectors/8-215079-2/A99469CT-ND/1955771?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F8 "8-215079-2" 0 0 50 H I L BNN
+F9 "A99469CT-ND" 0 0 50 H I L BNN
+F10 "TE Connectivity" 0 0 50 H I L BNN
+F11 "Compliant" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -300 -600 -300 600 N
+P 2 0 0 10 -300 600 300 600 N
+P 2 0 0 10 300 -600 -300 -600 N
+P 2 0 0 10 300 600 300 -600 N
+X P1 1 -500 500 200 R 40 40 0 0 P
+X P10 10 500 100 200 L 40 40 0 0 P
+X P11 11 500 300 200 L 40 40 0 0 P
+X P12 12 500 500 200 L 40 40 0 0 P
+X P2 2 -500 300 200 R 40 40 0 0 P
+X P3 3 -500 100 200 R 40 40 0 0 P
+X P4 4 -500 -100 200 R 40 40 0 0 P
+X P5 5 -500 -300 200 R 40 40 0 0 P
+X P6 6 -500 -500 200 R 40 40 0 0 P
+X P7 7 500 -500 200 L 40 40 0 0 P
+X P8 8 500 -300 200 L 40 40 0 0 P
+X P9 9 500 -100 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 14_Way_1-215079-4
+#
+DEF 14_Way_1-215079-4 J 0 40 Y Y 1 L N
+F0 "J" -300 620 50 H V L BNN
+F1 "14_Way_1-215079-4" -300 -300 50 H V L BNN
+F2 "TE_2-215079-0" 0 0 50 H I L BNN
+F3 "TE Connectivity" 0 0 50 H I L BNN
+F4 "https://www.te.com/usa-en/product-2-215079-0.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F5 "Board-To-Board Connector, Micro-MaTch Series, Through Hole, Receptacle, 20, 1.27 mm" 0 0 50 H I L BNN
+F6 "https://www.digikey.co.uk/product-detail/en/te-connectivity-amp-connectors/2-215079-0/A111123CT-ND/4142507?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F7 "2-215079-0" 0 0 50 H I L BNN
+F8 "2-215079-0" 0 0 50 H I L BNN
+F9 "A111123CT-ND" 0 0 50 H I L BNN
+F10 "Compliant" 0 0 50 H I L BNN
+F11 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 5 -300 -200 -300 600 N
+P 2 0 0 5 -300 600 200 600 N
+P 2 0 0 5 200 -200 -300 -200 N
+P 2 0 0 5 200 600 200 -200 N
+X 1 1 -500 500 200 R 40 40 0 0 P
+X 10 10 400 100 200 L 40 40 0 0 P
+X 11 11 -500 0 200 R 40 40 0 0 P
+X 12 12 400 0 200 L 40 40 0 0 P
+X 13 13 -500 -100 200 R 40 40 0 0 P
+X 14 14 400 -100 200 L 40 40 0 0 P
+X 2 2 400 500 200 L 40 40 0 0 P
+X 3 3 -500 400 200 R 40 40 0 0 P
+X 4 4 400 400 200 L 40 40 0 0 P
+X 5 5 -500 300 200 R 40 40 0 0 P
+X 6 6 400 300 200 L 40 40 0 0 P
+X 7 7 -500 200 200 R 40 40 0 0 P
+X 8 8 400 200 200 L 40 40 0 0 P
+X 9 9 -500 100 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 20_Way_2-215079-0
+#
+DEF 20_Way_2-215079-0 J 0 40 Y Y 1 L N
+F0 "J" -300 620 50 H V L BNN
+F1 "20_Way_2-215079-0" -300 -600 50 H V L BNN
+F2 "TE_2-215079-0" 0 0 50 H I L BNN
+F3 "TE Connectivity" 0 0 50 H I L BNN
+F4 "https://www.te.com/usa-en/product-2-215079-0.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F5 "Board-To-Board Connector, Micro-MaTch Series, Through Hole, Receptacle, 20, 1.27 mm" 0 0 50 H I L BNN
+F6 "https://www.digikey.co.uk/product-detail/en/te-connectivity-amp-connectors/2-215079-0/A111123CT-ND/4142507?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F7 "2-215079-0" 0 0 50 H I L BNN
+F8 "2-215079-0" 0 0 50 H I L BNN
+F9 "A111123CT-ND" 0 0 50 H I L BNN
+F10 "Compliant" 0 0 50 H I L BNN
+F11 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 5 -300 -500 -300 600 N
+P 2 0 0 5 -300 600 200 600 N
+P 2 0 0 5 200 -500 -300 -500 N
+P 2 0 0 5 200 600 200 -500 N
+X 1 1 -500 500 200 R 40 40 0 0 P
+X 10 10 400 100 200 L 40 40 0 0 P
+X 11 11 -500 0 200 R 40 40 0 0 P
+X 12 12 400 0 200 L 40 40 0 0 P
+X 13 13 -500 -100 200 R 40 40 0 0 P
+X 14 14 400 -100 200 L 40 40 0 0 P
+X 15 15 -500 -200 200 R 40 40 0 0 P
+X 16 16 400 -200 200 L 40 40 0 0 P
+X 17 17 -500 -300 200 R 40 40 0 0 P
+X 18 18 400 -300 200 L 40 40 0 0 P
+X 19 19 -500 -400 200 R 40 40 0 0 P
+X 2 2 400 500 200 L 40 40 0 0 P
+X 20 20 400 -400 200 L 40 40 0 0 P
+X 3 3 -500 400 200 R 40 40 0 0 P
+X 4 4 400 400 200 L 40 40 0 0 P
+X 5 5 -500 300 200 R 40 40 0 0 P
+X 6 6 400 300 200 L 40 40 0 0 P
+X 7 7 -500 200 200 R 40 40 0 0 P
+X 8 8 400 200 200 L 40 40 0 0 P
+X 9 9 -500 100 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 8_Way_215079-8
+#
+DEF 8_Way_215079-8 J 0 40 Y Y 1 L N
+F0 "J" -200 420 50 H V L BNN
+F1 "8_Way_215079-8" -200 -600 50 H V L BNN
+F2 "TE_215079-8" 0 0 50 H I L BNN
+F3 "TE Connectivity" 0 0 50 H I L BNN
+F4 "https://www.te.com/usa-en/product-215079-8.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
+F5 "TE CONNECTIVITY 215079-8 / Tyco215079-8 / AMP 215079-8 / micro-match female on board connector" 0 0 50 H I L BNN
+F6 "https://www.digikey.co.uk/product-detail/en/te-connectivity-amp-connectors/215079-8/A105450CT-ND/3465694?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F7 "215079-8" 0 0 50 H I L BNN
+F8 "215079-8" 0 0 50 H I L BNN
+F9 "A105450CT-ND" 0 0 50 H I L BNN
+F10 "Compliant" 0 0 50 H I L BNN
+F11 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 8 -200 -500 0 -500 N
+P 2 0 0 8 -200 400 -200 -500 N
+P 2 0 0 8 0 -500 0 400 N
+P 2 0 0 8 0 400 -200 400 N
+X 1 1 -300 300 100 R 40 40 0 0 P
+X 2 2 -300 200 100 R 40 40 0 0 P
+X 3 3 -300 100 100 R 40 40 0 0 P
+X 4 4 -300 0 100 R 40 40 0 0 P
+X 5 5 -300 -100 100 R 40 40 0 0 P
+X 6 6 -300 -200 100 R 40 40 0 0 P
+X 7 7 -300 -300 100 R 40 40 0 0 P
+X 8 8 -300 -400 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

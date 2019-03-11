@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Connector_TE_215079_Series)(type KiCad)(uri ${KIPRJMOD}/Connector_TE_215079_Series.pretty)(options "")(descr ""))
+  (lib (name JamesParts)(type KiCad)(uri ${KIPRJMOD}/JamesParts.pretty)(options "")(descr ""))
+)

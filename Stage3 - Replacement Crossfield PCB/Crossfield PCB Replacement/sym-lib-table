@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TE_Amp_215079_PCB_Sockets)(type Legacy)(uri "${KIPRJMOD}/TE Amp 215079 PCB Sockets.lib")(options "")(descr ""))
+)
