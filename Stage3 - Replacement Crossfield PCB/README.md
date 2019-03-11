@@ -19,9 +19,9 @@ In the following folders please finds
 
 ####PDFs
 Crossfield PCB.pdf - The PCB to Print
-![Alt text](./images/pcb.jpg?raw=true "PCB")
+![Alt text](./Images/pcb.jpg?raw=true "PCB")
 Crossfield Schematic.pdf - The Schematic of the above PCB
-![Alt text](./images/Schematic.jpg?raw=true "PCB")
+![Alt text](./Images/Schematic.jpg?raw=true "PCB")
 
 ####KiCad
 The original KiCAD Design files, including the TE connectivity plugs and so on
