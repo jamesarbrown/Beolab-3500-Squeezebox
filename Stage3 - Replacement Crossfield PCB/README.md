@@ -27,7 +27,7 @@ Crossfield Schematic.pdf - The Schematic of the above PCB
 
 ![Alt text](./Images/Schematic.jpg?raw=true "PCB")
 
-### KiCad
+### Crossfield PCB Replacement (KiCAD Project)
 The original KiCAD Design files, including the TE connectivity plugs and so on
 
 #### Notes 
