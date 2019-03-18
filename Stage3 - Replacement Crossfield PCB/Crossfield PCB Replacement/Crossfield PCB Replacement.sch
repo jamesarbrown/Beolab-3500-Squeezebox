@@ -207,12 +207,12 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole_Pad H7
 U 1 1 5C69DA01
-P 3350 4850
-F 0 "H7" H 3450 4901 50  0000 L CNN
-F 1 "PMUTE" H 3450 4810 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 3350 4850 50  0001 C CNN
-F 3 "~" H 3350 4850 50  0001 C CNN
-	1    3350 4850
+P 4600 4850
+F 0 "H7" H 4700 4901 50  0000 L CNN
+F 1 "PMUTE" H 4700 4810 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 4600 4850 50  0001 C CNN
+F 3 "~" H 4600 4850 50  0001 C CNN
+	1    4600 4850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -269,25 +269,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 6800 11700 6800
 $Comp
-L TE_Amp_215079_PCB_Sockets:14_Way_1-215079-4 P4-P24
-U 1 1 5C6A42B4
-P 4450 4050
-F 0 "P4-P24" H 4400 4815 50  0000 C CNN
-F 1 "Switch Mode PSU" H 4400 4724 50  0000 C CNN
-F 2 "TE_2-215079-0" H 4450 4050 50  0001 L BNN
-F 3 "TE Connectivity" H 4450 4050 50  0001 L BNN
-F 4 "https://www.te.com/usa-en/product-2-215079-0.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 4450 4050 50  0001 L BNN "Field4"
-F 5 "Board-To-Board Connector, Micro-MaTch Series, Through Hole, Receptacle, 20, 1.27 mm" H 4450 4050 50  0001 L BNN "Field5"
-F 6 "https://www.digikey.co.uk/product-detail/en/te-connectivity-amp-connectors/2-215079-0/A111123CT-ND/4142507?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 4450 4050 50  0001 L BNN "Field6"
-F 7 "2-215079-0" H 4450 4050 50  0001 L BNN "Field7"
-F 8 "2-215079-0" H 4450 4050 50  0001 L BNN "Field8"
-F 9 "A111123CT-ND" H 4450 4050 50  0001 L BNN "Field9"
-F 10 "Compliant" H 4450 4050 50  0001 L BNN "Field10"
-F 11 "None" H 4450 4050 50  0001 L BNN "Field11"
-	1    4450 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H12
 U 1 1 5C6A4BC3
 P 3350 3050
@@ -298,43 +279,37 @@ F 3 "~" H 3350 3050 50  0001 C CNN
 	1    3350 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3350 3550 3950 3550
 $Comp
 L Mechanical:MountingHole_Pad H13
 U 1 1 5C6A5BBB
-P 5200 3050
-F 0 "H13" H 5300 3101 50  0000 L CNN
-F 1 "5V GND" H 5300 3010 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 5200 3050 50  0001 C CNN
-F 3 "~" H 5200 3050 50  0001 C CNN
-	1    5200 3050
+P 3700 3050
+F 0 "H13" H 3800 3101 50  0000 L CNN
+F 1 "5V GND" H 3800 3010 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 3700 3050 50  0001 C CNN
+F 3 "~" H 3700 3050 50  0001 C CNN
+	1    3700 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5200 3150 5200 3550
 $Comp
 L Mechanical:MountingHole_Pad H6
 U 1 1 5C6A6D01
 P 5650 4850
 F 0 "H6" H 5750 4901 50  0000 L CNN
-F 1 "PLIM" H 5750 4810 50  0000 L CNN
+F 1 "~PLIM" H 5750 4810 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 5650 4850 50  0001 C CNN
 F 3 "~" H 5650 4850 50  0001 C CNN
 	1    5650 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 3550 5200 3550
 $Comp
 L Mechanical:MountingHole_Pad H14
 U 1 1 5C6AB1BA
-P 5650 3050
-F 0 "H14" H 5750 3101 50  0000 L CNN
-F 1 "PON" H 5750 3010 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 5650 3050 50  0001 C CNN
-F 3 "~" H 5650 3050 50  0001 C CNN
-	1    5650 3050
+P 4100 3050
+F 0 "H14" H 4200 3101 50  0000 L CNN
+F 1 "PON" H 4200 3010 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 4100 3050 50  0001 C CNN
+F 3 "~" H 4100 3050 50  0001 C CNN
+	1    4100 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -345,118 +320,34 @@ Connection ~ 10600 5400
 Connection ~ 10600 6600
 Wire Wire Line
 	10600 6600 11700 6600
-Text Notes 4900 4150 0    50   ~ 0
-~PON
 $Comp
 L Device:R R1
 U 1 1 5C6D4368
-P 5900 3600
-F 0 "R1" V 6107 3600 50  0000 C CNN
-F 1 "1k" V 6016 3600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5830 3600 50  0001 C CNN
-F 3 "~" H 5900 3600 50  0001 C CNN
-	1    5900 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Transistor_BJT:BC548 Q1
-U 1 1 5C72DC48
-P 6300 3600
-F 0 "Q1" H 6491 3646 50  0000 L CNN
-F 1 "BC549" H 6491 3555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6500 3525 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6300 3600 50  0001 L CNN
-	1    6300 3600
+P 4100 3500
+F 0 "R1" V 4307 3500 50  0000 C CNN
+F 1 "1k" V 4216 3500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4030 3500 50  0001 C CNN
+F 3 "~" H 4100 3500 50  0001 C CNN
+	1    4100 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 3600 6100 3600
-Wire Wire Line
-	6400 3800 6400 3850
-Wire Wire Line
-	6400 3850 5900 3850
-Connection ~ 5200 3550
-Wire Wire Line
-	5650 3150 5650 3600
-Wire Wire Line
-	5650 3600 5750 3600
-$Comp
-L Device:R R2
-U 1 1 5C73859E
-P 6800 4400
-F 0 "R2" H 6870 4446 50  0000 L CNN
-F 1 "10k" H 6870 4355 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6730 4400 50  0001 C CNN
-F 3 "~" H 6800 4400 50  0001 C CNN
-	1    6800 4400
-	1    0    0    -1  
-$EndComp
-Connection ~ 3350 3550
-Wire Wire Line
-	6400 3400 6400 3250
-Wire Wire Line
-	6400 3250 6800 3250
-Wire Wire Line
-	6800 3250 6800 4150
-Wire Wire Line
-	4850 4150 6800 4150
-Connection ~ 6800 4150
-Wire Wire Line
-	6800 4150 6800 4250
-Wire Wire Line
-	3350 3150 3350 3550
 Wire Wire Line
 	10800 5800 10800 7000
-$Comp
-L power:GND #PWR0101
-U 1 1 5C7738D8
-P 5900 3850
-F 0 "#PWR0101" H 5900 3600 50  0001 C CNN
-F 1 "GND" H 5905 3677 50  0000 C CNN
-F 2 "" H 5900 3850 50  0001 C CNN
-F 3 "" H 5900 3850 50  0001 C CNN
-	1    5900 3850
-	1    0    0    -1  
-$EndComp
-Connection ~ 5900 3850
-Wire Wire Line
-	5900 3850 5200 3850
 Wire Wire Line
 	10700 5700 10700 6900
-Wire Wire Line
-	4850 3850 5200 3850
-Connection ~ 5200 3850
-Wire Wire Line
-	5200 3550 5200 3650
 $Comp
 L Device:R R3
 U 1 1 5C7B7D41
-P 3550 5400
-F 0 "R3" V 3757 5400 50  0000 C CNN
-F 1 "1k" V 3666 5400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3480 5400 50  0001 C CNN
-F 3 "~" H 3550 5400 50  0001 C CNN
-	1    3550 5400
+P 4450 5400
+F 0 "R3" V 4657 5400 50  0000 C CNN
+F 1 "1k" V 4566 5400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4380 5400 50  0001 C CNN
+F 3 "~" H 4450 5400 50  0001 C CNN
+	1    4450 5400
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3350 5400 3400 5400
-Wire Wire Line
-	3350 4950 3350 5400
-Text Notes 5050 3550 2    50   ~ 0
-GND
-Text Notes 3950 3550 2    50   ~ 0
-+5V
-Wire Wire Line
-	4850 3650 5200 3650
-Connection ~ 5200 3650
-Wire Wire Line
-	5200 3650 5200 3750
-Connection ~ 5200 3750
-Wire Wire Line
-	5200 3750 5200 3850
-Wire Wire Line
-	4850 3750 5200 3750
+	4600 4950 4600 5400
 Wire Wire Line
 	10900 5900 10900 7100
 Wire Wire Line
@@ -464,17 +355,6 @@ Wire Wire Line
 Connection ~ 10800 7000
 Wire Wire Line
 	10800 7000 11700 7000
-$Comp
-L Transistor_BJT:BC548 Q2
-U 1 1 5C7B7D48
-P 3900 5400
-F 0 "Q2" H 4091 5446 50  0000 L CNN
-F 1 "BC549" H 4091 5355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4100 5325 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 3900 5400 50  0001 L CNN
-	1    3900 5400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 5600 4000 7000
 Wire Wire Line
@@ -482,25 +362,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0102
 U 1 1 5C81370A
-P 5650 5750
-F 0 "#PWR0102" H 5650 5500 50  0001 C CNN
-F 1 "GND" H 5655 5577 50  0000 C CNN
-F 2 "" H 5650 5750 50  0001 C CNN
-F 3 "" H 5650 5750 50  0001 C CNN
-	1    5650 5750
+P 5650 5600
+F 0 "#PWR0102" H 5650 5350 50  0001 C CNN
+F 1 "GND" H 5655 5427 50  0000 C CNN
+F 2 "" H 5650 5600 50  0001 C CNN
+F 3 "" H 5650 5600 50  0001 C CNN
+	1    5650 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 5600 5650 5750
-Wire Wire Line
-	3350 3550 3350 4550
-Wire Wire Line
 	4000 5200 4000 4550
-Wire Wire Line
-	3350 4550 4000 4550
-Connection ~ 4000 4550
-Wire Wire Line
-	4000 4550 5100 4550
 $Comp
 L Device:R R4
 U 1 1 5C82786D
@@ -514,36 +385,17 @@ F 3 "~" H 5100 4800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 4650 5100 4550
-Connection ~ 5100 4550
 Wire Wire Line
 	5100 4550 6450 4550
-$Comp
-L Transistor_BJT:BC548 Q3
-U 1 1 5C803A01
-P 5550 5400
-F 0 "Q3" H 5741 5446 50  0000 L CNN
-F 1 "BC549" H 5741 5355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5750 5325 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 5550 5400 50  0001 L CNN
-	1    5550 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 4950 5650 5050
-Wire Wire Line
-	5350 5400 5100 5400
 Wire Wire Line
 	10700 6900 5100 6900
-Wire Wire Line
-	5100 6900 5100 5400
 Connection ~ 10700 6900
-Connection ~ 5100 5400
 $Comp
 L Mechanical:MountingHole_Pad H8
 U 1 1 5C835913
 P 7000 4850
 F 0 "H8" H 7100 4901 50  0000 L CNN
-F 1 "PFAIL" H 7100 4810 50  0000 L CNN
+F 1 "~PFAIL" H 7100 4810 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 7000 4850 50  0001 C CNN
 F 3 "~" H 7000 4850 50  0001 C CNN
 	1    7000 4850
@@ -552,16 +404,14 @@ $EndComp
 $Comp
 L power:GND #PWR0103
 U 1 1 5C83591A
-P 7000 5750
-F 0 "#PWR0103" H 7000 5500 50  0001 C CNN
-F 1 "GND" H 7005 5577 50  0000 C CNN
-F 2 "" H 7000 5750 50  0001 C CNN
-F 3 "" H 7000 5750 50  0001 C CNN
-	1    7000 5750
+P 7000 5600
+F 0 "#PWR0103" H 7000 5350 50  0001 C CNN
+F 1 "GND" H 7005 5427 50  0000 C CNN
+F 2 "" H 7000 5600 50  0001 C CNN
+F 3 "" H 7000 5600 50  0001 C CNN
+	1    7000 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7000 5600 7000 5750
 $Comp
 L Device:R R5
 U 1 1 5C835921
@@ -573,17 +423,6 @@ F 3 "~" H 6450 4800 50  0001 C CNN
 	1    6450 4800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:BC548 Q4
-U 1 1 5C835928
-P 6900 5400
-F 0 "Q4" H 7091 5446 50  0000 L CNN
-F 1 "BC549" H 7091 5355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7100 5325 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6900 5400 50  0001 L CNN
-	1    6900 5400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 4950 7000 5150
 Wire Wire Line
@@ -592,9 +431,6 @@ Wire Wire Line
 	6450 4950 6450 5400
 Wire Wire Line
 	6450 4650 6450 4550
-Connection ~ 6450 4550
-Wire Wire Line
-	6450 4550 6800 4550
 Wire Wire Line
 	10900 7100 6450 7100
 Wire Wire Line
@@ -671,16 +507,131 @@ Wire Wire Line
 	8500 5400 8050 5400
 Connection ~ 8500 5050
 Wire Wire Line
-	5100 4950 5100 5400
-Wire Wire Line
 	7750 5050 5650 5050
-Connection ~ 5650 5050
-Wire Wire Line
-	5650 5050 5650 5200
 Text Notes 12250 6400 0    50   ~ 0
 8 Pin Socket\nRS PN 680-5132\n\n8 Pin Plug\n680-5148
 Text Notes 9600 4200 2    50   ~ 0
 12pin Socket\n301-8054\n\n12pin plug\nRS 680-4993
-Text Notes 4600 3100 2    50   ~ 0
-14Pin Socket\n719-0103\n\n14pin Plug\n680-4996
+Text Notes 5150 3050 2    50   ~ 0
+4Pin Socket\n745-5397\n4pin Plug\n341-7394
+$Comp
+L TE_Amp_215079_PCB_Sockets:4_Way_215079-4 P21
+U 1 1 5C8F39AC
+P 5200 3750
+F 0 "P21" H 5229 3971 50  0000 L CNN
+F 1 "4_Way_215079-4" H 5229 3880 50  0000 L CNN
+F 2 "Connector_TE_215079_Series:TE_215079-4" H 5200 3900 50  0001 L BNN
+F 3 "TE Connectivity" H 5200 3900 50  0001 L BNN
+F 4 "https://www.te.com/usa-en/product-215079-8.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" H 5200 3900 50  0001 L BNN "Field4"
+F 5 "TE CONNECTIVITY 215079-8 / Tyco215079-8 / AMP 215079-8 / micro-match female on board connector" H 5200 3900 50  0001 L BNN "Field5"
+F 6 "https://www.digikey.co.uk/product-detail/en/te-connectivity-amp-connectors/215079-8/A105450CT-ND/3465694?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 5200 3900 50  0001 L BNN "Field6"
+F 7 "215079-4" H 5200 3900 50  0001 L BNN "Field7"
+F 8 "215079-4" H 5200 3900 50  0001 L BNN "Field8"
+F 9 "A105450CT-ND" H 5200 3900 50  0001 L BNN "Field9"
+F 10 "Compliant" H 5200 3900 50  0001 L BNN "Field10"
+F 11 "None" H 5200 3900 50  0001 L BNN "Field11"
+	1    5200 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3150 3350 4550
+Wire Wire Line
+	4100 3350 4100 3150
+$Comp
+L Transistor_BJT:BC548 Q1
+U 1 1 5C9701AB
+P 4300 3800
+F 0 "Q1" H 4491 3846 50  0000 L CNN
+F 1 "BC549" H 4491 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4500 3725 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4300 3800 50  0001 L CNN
+	1    4300 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3550 4400 3550
+Wire Wire Line
+	4400 3550 4400 3600
+Wire Wire Line
+	4900 3450 4700 3450
+Wire Wire Line
+	4700 3450 4700 4550
+Wire Wire Line
+	4700 4550 5100 4550
+Connection ~ 5100 4550
+Wire Wire Line
+	3350 4550 4000 4550
+Wire Wire Line
+	4700 4550 4000 4550
+Connection ~ 4700 4550
+Connection ~ 4000 4550
+Wire Wire Line
+	4100 3650 4100 3800
+$Comp
+L power:GND #PWR?
+U 1 1 5C99686D
+P 3700 3150
+F 0 "#PWR?" H 3700 2900 50  0001 C CNN
+F 1 "GND" H 3705 2977 50  0000 C CNN
+F 2 "" H 3700 3150 50  0001 C CNN
+F 3 "" H 3700 3150 50  0001 C CNN
+	1    3700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C9968D0
+P 4400 4000
+F 0 "#PWR?" H 4400 3750 50  0001 C CNN
+F 1 "GND" H 4405 3827 50  0000 C CNN
+F 2 "" H 4400 4000 50  0001 C CNN
+F 3 "" H 4400 4000 50  0001 C CNN
+	1    4400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC557 Q2
+U 1 1 5C99A905
+P 4100 5400
+F 0 "Q2" H 4290 5354 50  0000 L CNN
+F 1 "BC557" H 4290 5445 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4300 5325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 4100 5400 50  0001 L CNN
+	1    4100 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 4950 5100 5400
+Wire Wire Line
+	5650 5200 5650 5050
+$Comp
+L Transistor_BJT:BC557 Q3
+U 1 1 5C9A882E
+P 5550 5400
+F 0 "Q3" H 5741 5354 50  0000 L CNN
+F 1 "BC557" H 5741 5445 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5750 5325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 5550 5400 50  0001 L CNN
+	1    5550 5400
+	1    0    0    1   
+$EndComp
+Connection ~ 5650 5050
+Wire Wire Line
+	5650 4950 5650 5050
+Wire Wire Line
+	5350 5400 5100 5400
+Connection ~ 5100 5400
+Wire Wire Line
+	5100 5400 5100 6900
+$Comp
+L Transistor_BJT:BC557 Q4
+U 1 1 5C9B7F48
+P 6900 5400
+F 0 "Q4" H 7091 5354 50  0000 L CNN
+F 1 "BC557" H 7091 5445 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7100 5325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 6900 5400 50  0001 L CNN
+	1    6900 5400
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

@@ -69,40 +69,30 @@ X P9 9 500 -100 200 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# TE_Amp_215079_PCB_Sockets_14_Way_1-215079-4
+# TE_Amp_215079_PCB_Sockets_4_Way_215079-4
 #
-DEF TE_Amp_215079_PCB_Sockets_14_Way_1-215079-4 J 0 40 Y Y 1 L N
-F0 "J" -300 620 50 H V L BNN
-F1 "TE_Amp_215079_PCB_Sockets_14_Way_1-215079-4" -300 -300 50 H V L BNN
-F2 "TE_2-215079-0" 0 0 50 H I L BNN
-F3 "TE Connectivity" 0 0 50 H I L BNN
-F4 "https://www.te.com/usa-en/product-2-215079-0.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 0 50 H I L BNN
-F5 "Board-To-Board Connector, Micro-MaTch Series, Through Hole, Receptacle, 20, 1.27 mm" 0 0 50 H I L BNN
-F6 "https://www.digikey.co.uk/product-detail/en/te-connectivity-amp-connectors/2-215079-0/A111123CT-ND/4142507?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
-F7 "2-215079-0" 0 0 50 H I L BNN
-F8 "2-215079-0" 0 0 50 H I L BNN
-F9 "A111123CT-ND" 0 0 50 H I L BNN
-F10 "Compliant" 0 0 50 H I L BNN
-F11 "None" 0 0 50 H I L BNN
+DEF TE_Amp_215079_PCB_Sockets_4_Way_215079-4 J 0 40 Y Y 1 L N
+F0 "J" -200 420 50 H V L BNN
+F1 "TE_Amp_215079_PCB_Sockets_4_Way_215079-4" -400 -150 50 H V L BNN
+F2 "Connector_TE_215079_Series:TE_215079-4" 0 150 50 H I L BNN
+F3 "TE Connectivity" 0 150 50 H I L BNN
+F4 "https://www.te.com/usa-en/product-215079-8.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 150 50 H I L BNN
+F5 "TE CONNECTIVITY 215079-8 / Tyco215079-8 / AMP 215079-8 / micro-match female on board connector" 0 150 50 H I L BNN
+F6 "https://www.digikey.co.uk/product-detail/en/te-connectivity-amp-connectors/215079-8/A105450CT-ND/3465694?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 150 50 H I L BNN
+F7 "215079-4" 0 150 50 H I L BNN
+F8 "215079-4" 0 150 50 H I L BNN
+F9 "A105450CT-ND" 0 150 50 H I L BNN
+F10 "Compliant" 0 150 50 H I L BNN
+F11 "None" 0 150 50 H I L BNN
 DRAW
-P 2 0 0 5 -300 -200 -300 600 N
-P 2 0 0 5 -300 600 200 600 N
-P 2 0 0 5 200 -200 -300 -200 N
-P 2 0 0 5 200 600 200 -200 N
-X 1 1 -500 500 200 R 40 40 0 0 P
-X 10 10 400 100 200 L 40 40 0 0 P
-X 11 11 -500 0 200 R 40 40 0 0 P
-X 12 12 400 0 200 L 40 40 0 0 P
-X 13 13 -500 -100 200 R 40 40 0 0 P
-X 14 14 400 -100 200 L 40 40 0 0 P
-X 2 2 400 500 200 L 40 40 0 0 P
-X 3 3 -500 400 200 R 40 40 0 0 P
-X 4 4 400 400 200 L 40 40 0 0 P
-X 5 5 -500 300 200 R 40 40 0 0 P
-X 6 6 400 300 200 L 40 40 0 0 P
-X 7 7 -500 200 200 R 40 40 0 0 P
-X 8 8 400 200 200 L 40 40 0 0 P
-X 9 9 -500 100 200 R 40 40 0 0 P
+P 2 0 0 8 -200 -50 0 -50 N
+P 2 0 0 8 -200 400 -200 -50 N
+P 2 0 0 8 0 -50 0 400 N
+P 2 0 0 8 0 400 -200 400 N
+X 1 1 -300 300 100 R 40 40 0 0 P
+X 2 2 -300 200 100 R 40 40 0 0 P
+X 3 3 -300 100 100 R 40 40 0 0 P
+X 4 4 -300 0 100 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -157,6 +147,29 @@ P 3 0 1 20 25 75 25 -75 25 -75 N
 P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
 X C 1 100 200 100 D 50 50 1 1 P
 X B 2 -200 0 200 R 50 50 1 1 I
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_BJT_BC557
+#
+DEF Transistor_BJT_BC557 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_BJT_BC557" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_THT:TO-92_Inline" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS BC556 BC558 BC559 BC560 BC327 BC328
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
+X C 1 100 200 100 D 50 50 1 1 P
+X B 2 -200 0 225 R 50 50 1 1 I
 X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF

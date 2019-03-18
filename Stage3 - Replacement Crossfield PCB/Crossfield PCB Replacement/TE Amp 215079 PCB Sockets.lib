@@ -149,6 +149,33 @@ X 9 9 -500 100 200 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
+# 4_Way_215079-4
+#
+DEF 4_Way_215079-4 J 0 40 Y Y 1 L N
+F0 "J" -200 420 50 H V L BNN
+F1 "4_Way_215079-4" -400 -150 50 H V L BNN
+F2 "Connector_TE_215079_Series:TE_215079-4" 0 150 50 H I L BNN
+F3 "TE Connectivity" 0 150 50 H I L BNN
+F4 "https://www.te.com/usa-en/product-215079-8.html?te_bu=Cor&te_type=disp&te_campaign=seda_glo_cor-seda-global-disp-prtnr-fy19-seda-model-bom-cta_sma-317_1&elqCampaignId=32493" 0 150 50 H I L BNN
+F5 "TE CONNECTIVITY 215079-8 / Tyco215079-8 / AMP 215079-8 / micro-match female on board connector" 0 150 50 H I L BNN
+F6 "https://www.digikey.co.uk/product-detail/en/te-connectivity-amp-connectors/215079-8/A105450CT-ND/3465694?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 150 50 H I L BNN
+F7 "215079-4" 0 150 50 H I L BNN
+F8 "215079-4" 0 150 50 H I L BNN
+F9 "A105450CT-ND" 0 150 50 H I L BNN
+F10 "Compliant" 0 150 50 H I L BNN
+F11 "None" 0 150 50 H I L BNN
+DRAW
+P 2 0 0 8 -200 -50 0 -50 N
+P 2 0 0 8 -200 400 -200 -50 N
+P 2 0 0 8 0 -50 0 400 N
+P 2 0 0 8 0 400 -200 400 N
+X 1 1 -300 300 100 R 40 40 0 0 P
+X 2 2 -300 200 100 R 40 40 0 0 P
+X 3 3 -300 100 100 R 40 40 0 0 P
+X 4 4 -300 0 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
 # 8_Way_215079-8
 #
 DEF 8_Way_215079-8 J 0 40 Y Y 1 L N
