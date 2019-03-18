@@ -4,12 +4,14 @@
 
 | Function            | New Length    | Ways | Socket on Beolab   | RS PN Plugs   |
 | ------------------- |:-------------:| :---:| :----------------: | ------------: |
-| Left Hand Side Amp  | 380mm         | 8    | P2                 | 680-5148      |
-| Switch Mode PSU     | 220mm         | 14   | P24                | 680-4993      |
-| Right Hand Side Amp | 520mm         | 8    | P2                 | 680-5148      |
+| Right Hand Side Amp | 380mm         | 8    | P2                 | 680-5148      |
+| Left Hand Side Amp  | 520mm         | 8    | P2                 | 680-5148      |
 | Right Hand Side Amp | 370mm         | 12   | P18                | 680-4933      |
+| TX "Left"           | 520mm         | 4    | P21                | 341-7349      |
 
-Note 10 way ribbon P17 to P5 is removed and not replaced. On ribbon cabnle bought a length of 14 way and cut down for other sections
+Note 10 way ribbon P17 to P5 is removed and not replaced. On ribbon cable bought a length of 14 way and cut down for other sections
+
+In later stages the right hand side and left hand amps will be swapped around to create space for the crossfield PCB
 
 ## Crossfield PCB Folders
 
