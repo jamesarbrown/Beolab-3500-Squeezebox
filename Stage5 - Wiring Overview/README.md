@@ -2,7 +2,7 @@
 
 ### Removal of B&O Switchmode PSU
 
-The switchmode PSU onboard the Beolab is controlled via a LM3578 Buck convertor. It creates the 5v @ 750mA. Initially it was intended to use this however on startup the voltage was found to collapse
+The switchmode PSU onboard the Beolab is controlled via a LM3578 Buck convertor. It creates the 5v @ 750mA. Initially it was intended to use this however on startup the voltage was found to collapse. It was suspected the two R039 ohm resistors on pins 6-7 of the LM3578 were arranged to further restrict the output by B&O, but damaged it investigating.
 
 This is the PSU
 
