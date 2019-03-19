@@ -34,6 +34,10 @@ The original KiCAD Design files, including the TE connectivity plugs and so on
 
 #### Notes 
 I had difficulty in nailing down the PFAIL and PLIM functions, so copied the way they originally were immplemented into the B&O microcomputer. Then used a BC549 to separate the circuit from the Raspberry. My suspicion was I could pull down the 3v3 directly, but went for this way to achieve some security.
+
+### 3d from Kicad of PCB
+
+![Alt text](./Images/3d.jpg?raw=true "3d")
  
 
 
