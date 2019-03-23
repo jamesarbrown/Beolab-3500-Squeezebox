@@ -1,14 +1,13 @@
 ## Wiring Overview
 
-### Removal of B&O Switchmode PSU
+### Left Hand Side Amp Prep
+The switchmode PSU onboard the Beolab is controlled via a LM3578 Buck convertor. It creates the 5v @ 750mA. Initially it was intended to use this however on startup the voltage was found to collapse. 
 
-The switchmode PSU onboard the Beolab is controlled via a LM3578 Buck convertor. It creates the 5v @ 750mA. Initially it was intended to use this however on startup the voltage was found to collapse. It was suspected the two R039 ohm resistors on pins 6-7 of the LM3578 were arranged to further restrict the output by B&O, but damaged it investigating.
+It was suspected the two R039 ohm resistors on pins 6-7 of the LM3578 were arranged to further restrict the output by B&O. The Kedei and Raspberry use about 750mA Combined, there was a view to shorting the R4+R5 resistors out on the switchmode, but in diagnosis I damaged the LM3578. So decided to dispose and replace with a typical USB PSU designed for the job.
 
 This is the PSU
 
 ![Alt text](./images/psu.jpg?raw=true "PSU")
-
-The Kedei and Raspberry use about 750mA Combined, there was a view to shorting the R4+R5 resistors out on the switchmode, but in diagnosis I damaged the LM3578. So decided to dispose and replace with a typical USB PSU designed for the job
 
 Then to create a bit more space remove the TX T1 and capacitor C1 from the left hand side TX.
 
