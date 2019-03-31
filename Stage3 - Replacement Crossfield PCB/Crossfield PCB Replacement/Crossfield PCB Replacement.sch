@@ -209,7 +209,7 @@ L Mechanical:MountingHole_Pad H7
 U 1 1 5C69DA01
 P 4600 4850
 F 0 "H7" H 4700 4901 50  0000 L CNN
-F 1 "PMUTE" H 4700 4810 50  0000 L CNN
+F 1 "~PMUTE" H 4700 4810 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_Drill1.2mm" H 4600 4850 50  0001 C CNN
 F 3 "~" H 4600 4850 50  0001 C CNN
 	1    4600 4850
@@ -338,16 +338,14 @@ Wire Wire Line
 $Comp
 L Device:R R3
 U 1 1 5C7B7D41
-P 4450 5400
-F 0 "R3" V 4657 5400 50  0000 C CNN
-F 1 "1k" V 4566 5400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4380 5400 50  0001 C CNN
-F 3 "~" H 4450 5400 50  0001 C CNN
-	1    4450 5400
+P 4250 5400
+F 0 "R3" V 4457 5400 50  0000 C CNN
+F 1 "1k" V 4366 5400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4180 5400 50  0001 C CNN
+F 3 "~" H 4250 5400 50  0001 C CNN
+	1    4250 5400
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4600 4950 4600 5400
 Wire Wire Line
 	10900 5900 10900 7100
 Wire Wire Line
@@ -355,10 +353,6 @@ Wire Wire Line
 Connection ~ 10800 7000
 Wire Wire Line
 	10800 7000 11700 7000
-Wire Wire Line
-	4000 5600 4000 7000
-Wire Wire Line
-	4000 7000 10800 7000
 $Comp
 L power:GND #PWR0102
 U 1 1 5C81370A
@@ -370,8 +364,6 @@ F 3 "" H 5650 5600 50  0001 C CNN
 	1    5650 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 5200 4000 4550
 $Comp
 L Device:R R4
 U 1 1 5C82786D
@@ -559,12 +551,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 4550 5100 4550
 Connection ~ 5100 4550
-Wire Wire Line
-	3350 4550 4000 4550
-Wire Wire Line
-	4700 4550 4000 4550
 Connection ~ 4700 4550
-Connection ~ 4000 4550
 Wire Wire Line
 	4100 3650 4100 3800
 $Comp
@@ -588,17 +575,6 @@ F 2 "" H 4400 4000 50  0001 C CNN
 F 3 "" H 4400 4000 50  0001 C CNN
 	1    4400 4000
 	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC557 Q2
-U 1 1 5C99A905
-P 4100 5400
-F 0 "Q2" H 4290 5354 50  0000 L CNN
-F 1 "BC557" H 4290 5445 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4300 5325 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 4100 5400 50  0001 L CNN
-	1    4100 5400
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5100 4950 5100 5400
@@ -634,4 +610,54 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC557.pdf" H 6900 5400 50  0001 L CNN
 	1    6900 5400
 	1    0    0    1   
 $EndComp
+$Comp
+L Device:R R2
+U 1 1 5C9EBECA
+P 3350 4800
+F 0 "R2" H 3420 4846 50  0000 L CNN
+F 1 "10k" H 3420 4755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3280 4800 50  0001 C CNN
+F 3 "~" H 3350 4800 50  0001 C CNN
+	1    3350 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 4650 3350 4550
+$Comp
+L Transistor_BJT:BC548 Q2
+U 1 1 5C9F2222
+P 3900 5400
+F 0 "Q2" H 4091 5446 50  0000 L CNN
+F 1 "BC549" H 4091 5355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4100 5325 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 3900 5400 50  0001 L CNN
+	1    3900 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 7000 10800 7000
+Wire Wire Line
+	3350 4550 4700 4550
+$Comp
+L power:GND #PWR?
+U 1 1 5C9FE5CA
+P 3800 5600
+F 0 "#PWR?" H 3800 5350 50  0001 C CNN
+F 1 "GND" H 3805 5427 50  0000 C CNN
+F 2 "" H 3800 5600 50  0001 C CNN
+F 3 "" H 3800 5600 50  0001 C CNN
+	1    3800 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5400 4600 5400
+Wire Wire Line
+	3350 4950 3350 5200
+Wire Wire Line
+	4600 4950 4600 5400
+Wire Wire Line
+	3800 5200 3350 5200
+Connection ~ 3350 5200
+Wire Wire Line
+	3350 5200 3350 7000
 $EndSCHEMATC
