@@ -30,3 +30,13 @@ Then finally fitted the Left hand system, but in the _RIGHT_ hand side, this is 
 Note the ferrite core I attached to the DC cable RS PN 123-2479
 
 ![Alt text](./images/ferrite.jpg?raw=true "ferrite")
+
+### Main Wiring Diagram
+
+The main wiring diagram is included in this folder in ODG and PDF format
+
+![Alt text](./images/Bang-Olufsen-Beolab_3500-Service-Manual.jpg?raw=true "Wiring")
+
+### Other Notes
+
+After a failed attempt with a bad connection and bad audio from the primary 3.5mm Audio jack, i decided to solder the audio leads directly onto the audio jack for the Kedei display. On the body there is sufficient exposed metal to solder too without having to demount or worry about PCB work.
