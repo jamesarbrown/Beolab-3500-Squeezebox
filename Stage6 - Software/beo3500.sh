@@ -45,7 +45,7 @@ MAC_ADDR=$(pcp_controls_mac_address)		# Set by pCP
 #LMS_IP=192.168.1.101						# LMS IP address
 LMS_IP=$(pcp_lmsip)							# Set by pCP
 INTERVAL=0.5								# Set Poll interval
-GPIO=5										# Set GPIO
+GPIO_POWER=5										# Set GPIO
 COMMAND="status 0 0"						# LMS player status command
 DELAYOFF=10									# Delay in no. of intervals
 COUNT=0
@@ -54,12 +54,12 @@ DEBUG=1
 
 if [ $DEBUG = 1 ]; then
 	echo
-	echo "MAC_ADDR : "$MAC_ADDR
-	echo "LMS_IP   : "$LMS_IP
-	echo "INTERVAL : "$INTERVAL
-	echo "GPIO     : "$GPIO
-	echo "COMMAND  : "$COMMAND
-	echo "DELAYOFF : "$DELAYOFF
+	echo "MAC_ADDR 	: "$MAC_ADDR
+	echo "LMS_IP   	: "$LMS_IP
+	echo "INTERVAL 	: "$INTERVAL
+	echo "GPIO_POWER: "$GPIO_POWER
+	echo "COMMAND  	: "$COMMAND
+	echo "DELAYOFF 	: "$DELAYOFF
 	echo
 fi
 
@@ -69,11 +69,11 @@ get_mode() {
 	if [ $? == 0 ]; then
 		echo "Playing. Count: $COUNT"
 		COUNT=0
-		echo "1" > /sys/class/gpio/gpio$GPIO/value
+		echo "1" > /sys/class/gpio/gpio$GPIO_POWER/value
 	else
 		if [ $COUNT -ge $DELAYOFF ]; then
 			#echo "Stopped. Count: $COUNT"
-			echo "0" > /sys/class/gpio/gpio$GPIO/value
+			echo "0" > /sys/class/gpio/gpio$GPIO_POWER/value
 			COUNT=0
 		else
 			#COUNT=`expr $COUNT + 1` #or
@@ -86,11 +86,11 @@ get_mode() {
 #===========================================================================
 # Initial GPIO setup
 #---------------------------------------------------------------------------
-sudo sh -c 'echo '"$GPIO"' > /sys/class/gpio/export'
-sudo sh -c 'echo "out" > /sys/class/gpio/gpio'"$GPIO"'/direction'
+sudo sh -c 'echo '"$GPIO_POWER"' > /sys/class/gpio/export'
+sudo sh -c 'echo "out" > /sys/class/gpio/gpio'"$GPIO_POWER"'/direction'
 # My relay is active low, so this reverses the logic
-# sudo sh -c 'echo "1" > /sys/class/gpio/gpio'"$GPIO"'/active_low'
-echo "0" > /sys/class/gpio/gpio$GPIO/value
+# sudo sh -c 'echo "1" > /sys/class/gpio/gpio'"$GPIO_POWER"'/active_low'
+echo "0" > /sys/class/gpio/gpio$GPIO_POWER/value
 #---------------------------------------------------------------------------
 
 #===========================================================================
