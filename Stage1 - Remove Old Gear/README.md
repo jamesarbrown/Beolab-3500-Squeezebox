@@ -9,4 +9,4 @@ First I removed the old parts including
 
 ![Alt text](./images/StrippedUnit.jpg?raw=true "Stripped Down BeoLab3500")
 
-_Note the Switchmode PSU was later removed and also the TX modified. See wiring overview_
+_Note the Switchmode PSU was later removed and also the TX modified. See wiring overview. Also the Rh and LH amps will be swapped for space reasons
