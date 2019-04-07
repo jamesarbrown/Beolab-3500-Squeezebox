@@ -13,7 +13,7 @@ Once into PiCorePlayer web front end perform the following tasks
 * Install Lirc as detailed below (this is important to do so we can set the jivelite resolution!)
 * Set Skin to 640 x 480, this must match the hdmi_cvt settings (so the touch resolution matches the skin)
 * Backup your settings on the pcp webpage
-* 
+
 
 
 
@@ -85,22 +85,51 @@ Center : X = 2048 Y = 2000
 658.083069 0.003269 -0.168910
 -25.536713 0.136478 -0.002727
 Calibration constants: 43128132 214 -11069 -1673574 8944 -178 65536
+```
+Can then be tested via
+```
+root@piCorePlayer:~$ TSLIB_TSDEVICE=/dev/input/event0 /usr/local/bin/ts_test
+```
 
+And don't forget
+```
 filetool.sh -b
 ```
 
-Edit pcpstartup
+### Edit pcpstartup
 /home/tc/www/cgi-bin/pcp_startup.sh
+Comment out the FT5406 and force the event no
+```
+eventno=$( cat /proc/bus/input/devices | awk '/FT5406 memory based driver/{....
+eventno=event0
+```
+to
+```
+eventno=$( cat /proc/bus/input/devices | awk '/ADS7846 Touchscreen/{....
+```
+And then don't forget to filetool.sh -b
 
-        # Additions for kedei display touch
-#       export JIVE_NOCURSOR=1
-#        export TSLIB_TSDEVICE=/dev/input/event0
-#        export SDL_MOUSEDRV=TSLIB
-#        export SDL_MOUSEDEV=$TSLIB_TSDEVICE
+This sets the following environment flags
 
+```
+export JIVE_NOCURSOR=1
+export TSLIB_TSDEVICE=/dev/input/$eventno
+export SDL_MOUSEDRV=TSLIB
+export SDL_MOUSEDEV=$TSLIB_TSDEVICE
 
-Scripts for PON PLIM, PMUTE
+```
+### Scripts for PON PLIM, PMUTE etc
+In this folder is a file called beo3500.sh.
 
-Install 
-Python 3.6
-Python-RPi.GPIO
+Please copy this into /home/tc and then in user commands in the pCP webinterface add
+
+```
+sleep 5; /home/tc/beo3500.sh > /dev/null
+```
+
+The script will auto power on and off the amplifiers based on the player status.
+
+### IR and Lirc
+
+This is all setup in piCore. Under the Lirc page set the GPIO to 18 if you have followed these wiring diagrams
+
