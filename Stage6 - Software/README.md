@@ -101,7 +101,6 @@ filetool.sh -b
 Comment out the FT5406 and force the event no
 ```
 eventno=$( cat /proc/bus/input/devices | awk '/FT5406 memory based driver/{....
-eventno=event0
 ```
 to
 ```
@@ -129,7 +128,4 @@ sleep 5; /home/tc/beo3500.sh > /dev/null
 
 The script will auto power on and off the amplifiers based on the player status.
 
-### IR and Lirc
-
-This is all setup in piCore. Under the Lirc page set the GPIO to 18 if you have followed these wiring diagrams
 
