@@ -1,6 +1,6 @@
 # Beolab-3500-Squeezebox
 
-![Alt text](./images/ImageHighRes.jpg?raw=true "Beo3500 Squeezebox")
+![Alt text](./ImageHighRes.jpg?raw=true "Beo3500 Squeezebox")
 
 This project is to convert and Bang and Olufsen Beolab 3500 into a Logitech Media Server / Slimdevices Squeezebox using Raspberry Pi and PiCorePlayer.
 
