@@ -37,6 +37,12 @@ The main wiring diagram is included in this folder in ODG and PDF format
 
 ![Alt text](./images/Bang-Olufsen-Beolab_3500-Service-Manual.jpg?raw=true "Wiring")
 
+### KM Tech Crossovers
+
+In line with the B&O service manual the crossover needs to be 3kHz and on this project KM Tech units were utilisied. It would have been more ideal to have everything on one board and tighter spacing, so maybe a future implementation.
+
+[Link to Buying on Ebay](https://www.ebay.co.uk/itm/122126121492?hash=item1c6f48ba14:g:sCAAAOSw-kdX07iY)
+
 ### Other Notes
 
 After a failed attempt with a bad connection and bad audio from the primary 3.5mm Audio jack, i decided to solder the audio leads directly onto the audio jack for the Kedei display. On the body there is sufficient exposed metal to solder too without having to demount or worry about PCB work.
